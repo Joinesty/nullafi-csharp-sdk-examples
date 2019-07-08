@@ -2,6 +2,7 @@
 using Nullafi.Domains.CommunicationVault;
 using NullafiSDKExamples.Examples.Communication.Managers;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace NullafiSDKExamples.Examples.Communication
@@ -46,9 +47,10 @@ namespace NullafiSDKExamples.Examples.Communication
         private async Task<CommunicationVault> CreateCommunicationVault(Client client)
         {
             var name = "C# - Sample Communication Vault Name";
+            var tags = new List<string> { "communication", "vault" };
             
 
-            CommunicationVault communicationVault = await client.CreateCommunicationVault(name, null);
+            CommunicationVault communicationVault = await client.CreateCommunicationVault(name, tags);
             Console.WriteLine("**** CommunicationVaultExample.createCommunicationVault:");
             Console.WriteLine("-> Id: " + communicationVault.VaultId);
             Console.WriteLine("-> Name: " + communicationVault.VaultName);
