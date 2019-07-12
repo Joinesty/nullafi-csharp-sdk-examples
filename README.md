@@ -31,10 +31,6 @@ Paket CLI
 > paket add NullafiSDK --version 1.0.1
 ```
 
-How to install the SDK at your project
-------------
-- Import dll (`local-package/NullafiSDK.dll`) to Application
-
 Getting Started
 ---------------
 
