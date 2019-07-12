@@ -27,7 +27,7 @@ Paket CLI
 > paket add NullafiSDK
 ```
 
-[The most recent version of the Nullafi Java SDK can be found on Maven Repository.](https://www.nuget.org/packages/NullafiSDK/)
+[The most recent version of the Nullafi C# SDK can be found on Maven Repository.](https://www.nuget.org/packages/NullafiSDK/)
 
 Getting Started
 ---------------
