@@ -23,10 +23,6 @@ PM> Install-Package NullafiSDK -Version 1.0.1
 > dotnet add package NullafiSDK --version 1.0.1
 ```
 ```
-PackageReference
-<PackageReference Include="NullafiSDK" Version="1.0.1" />
-```
-```
 Paket CLI
 > paket add NullafiSDK --version 1.0.1
 ```
