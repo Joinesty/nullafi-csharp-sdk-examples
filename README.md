@@ -16,15 +16,15 @@ How to use the SDK at your project
 - Import the NullafiSDK Package from [Nuget Repository](https://www.nuget.org/packages/NullafiSDK/). Examples:
 ```
 Package Manager
-PM> Install-Package NullafiSDK -Version 1.0.1
+PM> Install-Package NullafiSDK
 ```
 ```
 .NET CLI
-> dotnet add package NullafiSDK --version 1.0.1
+> dotnet add package NullafiSDK
 ```
 ```
 Paket CLI
-> paket add NullafiSDK --version 1.0.1
+> paket add NullafiSDK
 ```
 
 Getting Started
