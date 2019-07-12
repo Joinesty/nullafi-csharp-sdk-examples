@@ -5,7 +5,7 @@ Nullafi C# SDK Examples
 A C# Application with examples to use the Nullafi C# SDK.
 
 - [Pre Requisites](#pre-requisites)
-- [How to install the SDK at your project](#how-to-install-the-sdk-at-your-project)
+- [How to use the SDK at your project](#how-to-use-the-sdk-at-your-project)
 - [Getting Started](#getting-started)
 - [Copyright and License](#copyright-and-license)
 
