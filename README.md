@@ -5,17 +5,33 @@ Nullafi C# SDK Examples
 A C# Application with examples to use the Nullafi C# SDK.
 
 - [Pre Requisites](#pre-requisites)
-- [Installation](#installation)
+- [How to install the SDK at your project](#how-to-install-the-sdk-at-your-project)
 - [Getting Started](#getting-started)
 - [Copyright and License](#copyright-and-license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Pre Requisites
+How to use the SDK at your project
 ------------
-- .Net Core >= 2.1
+- Import the NullafiSDK Package from [Nuget Repository](https://www.nuget.org/packages/NullafiSDK/). Examples:
+```
+Package Manager
+PM> Install-Package NullafiSDK -Version 1.0.1
+```
+```
+.NET CLI
+> dotnet add package NullafiSDK --version 1.0.1
+```
+```
+PackageReference
+<PackageReference Include="NullafiSDK" Version="1.0.1" />
+```
+```
+Paket CLI
+> paket add NullafiSDK --version 1.0.1
+```
 
-Installation
+How to install the SDK at your project
 ------------
 - Import dll (`local-package/NullafiSDK.dll`) to Application
 
